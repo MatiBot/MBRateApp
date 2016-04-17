@@ -13,28 +13,28 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ### Customization
 
 ```swift
-        var rateUsInfo = MBRateUsInfo() //get the default settings
+var rateUsInfo = MBRateUsInfo() //get the default settings
         
-        //override any attribute
-        rateUsInfo.title = "Enjoying The League?"
-        rateUsInfo.titleImage = UIImage(named: "icon")
-        rateUsInfo.itunesId = "893653132"
+//override any attribute
+rateUsInfo.title = "Enjoying The League?"
+rateUsInfo.titleImage = UIImage(named: "icon")
+rateUsInfo.itunesId = "893653132"
         
-        //set the value in the shared instance
-        MBRateUs.sharedInstance.rateUsInfo = rateUsInfo
+//set the value in the shared instance
+MBRateUs.sharedInstance.rateUsInfo = rateUsInfo
 ```
 
 ### Presentation
 
 ```swift
 MBRateUs.sharedInstance.showRateUs(self
-            , positiveBlock: { () -> Void in
-              //code to run when the user chose more than 3 stars and chose to rate in the app store
-            }, negativeBlock: { () -> Void in
-              //code to run when the user chose less than 4 stars and chose to send feedback
-            }) { () -> Void in
-              //code to run when the user dismissed that screen without choosing anything
-        }
+        , positiveBlock: { () -> Void in
+        //code to run when the user chose more than 3 stars and chose to rate in the app store
+        }, negativeBlock: { () -> Void in
+        //code to run when the user chose less than 4 stars and chose to send feedback
+        }) { () -> Void in
+        //code to run when the user dismissed that screen without choosing anything
+}
 ```
 
 ## Requirements
