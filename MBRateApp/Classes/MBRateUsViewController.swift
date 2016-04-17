@@ -34,8 +34,8 @@ class MBRateUsViewController : UIViewController {
         shouldRate = false
         let podBundle = NSBundle(forClass: self.dynamicType)
  
-        starImageOn = UIImage(named: "rateus_star_on", inBundle: podBundle, compatibleWithTraitCollection: nil)!
-        starImageOff = UIImage(named: "rateus_star_off", inBundle: podBundle, compatibleWithTraitCollection: nil)!
+        starImageOn = UIImage(named: "rateus_on", inBundle: podBundle, compatibleWithTraitCollection: nil)!
+        starImageOff = UIImage(named: "rateus_off", inBundle: podBundle, compatibleWithTraitCollection: nil)!
         
         super.init(coder: aDecoder)
     }
@@ -62,7 +62,7 @@ class MBRateUsViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
         self.callToActionButton.layer.cornerRadius = 6.0
         
         self.titleLabel.text = self.rateUsInfo?.title
@@ -78,6 +78,10 @@ class MBRateUsViewController : UIViewController {
         
         if let emptyStar = self.rateUsInfo?.fullStarImage {
             self.starImageOff = emptyStar
+        }
+        
+        for button: UIButton in self.starButtons {
+            button.setImage(starImageOff, forState: .Normal)
         }
         
         self.imageView.image = self.rateUsInfo?.titleImage

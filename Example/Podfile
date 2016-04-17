@@ -7,5 +7,7 @@ end
 target 'MBRateApp_Tests', :exclusive => true do
   pod 'MBRateApp', :path => '../'
 
-  
+
+
+
 end

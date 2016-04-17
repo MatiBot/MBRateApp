@@ -21,7 +21,7 @@ s.description      = <<-DESC
 try to get more stars with this pod
 DESC
 
-s.homepage         = "https://github.com/<GITHUB_USERNAME>/MBRateApp"
+s.homepage         = "https://github.com/matibot/MBRateApp"
 # s.screenshots     = "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot1.png", "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot2.png"
 s.license          = 'MIT'
 s.author           = { "Mati Bot" => "matibot@gmail.com" }
@@ -31,9 +31,11 @@ s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MBRateApp.g
 s.ios.deployment_target = '8.0'
 
 s.source_files = 'MBRateApp/Classes/**/*'
-s.resource_bundles = {
-'MBRateApp' => [MBRateApp/Resources/**/*.{xib, png, jpeg, jpg, storyboard}']
-}
+
+s.subspec 'Resources' do |resources|
+resources.resource_bundle = {'MBRateApp' => ['Resources/**/*']}
+end
+
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
