@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MBRateApp"
-s.version          = "0.1.0"
+s.version          = "0.1.2"
 s.summary          = "A customizable interstitial app rate screen with cool design"
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ s.homepage         = "https://github.com/matibot/MBRateApp"
 # s.screenshots     = "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot1.png", "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot2.png"
 s.license          = 'MIT'
 s.author           = { "Mati Bot" => "matibot@gmail.com" }
-s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MBRateApp.git", :tag => s.version.to_s }
+s.source           = { :git => "https://github.com/matibot/MBRateApp.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/b0tnik'
 
 s.ios.deployment_target = '8.0'
