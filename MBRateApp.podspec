@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MBRateApp"
-s.version          = "0.1.0"
+s.version          = "0.1.2"
 s.summary          = "A customizable interstitial app rate screen with cool design"
 
 # This description is used to generate tags and improve search results.
