@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "MBRateApp"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of MBRateApp."
+s.name             = "MBRateApp"
+s.version          = "0.1.0"
+s.summary          = "A customizable interstitial app rate screen with cool design"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,24 +17,25 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-                       DESC
+s.description      = <<-DESC
+try to get more stars with this pod
+DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MBRateApp"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Mati Bot" => "matibot@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MBRateApp.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = "https://github.com/<GITHUB_USERNAME>/MBRateApp"
+# s.screenshots     = "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot1.png", "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot2.png"
+s.license          = 'MIT'
+s.author           = { "Mati Bot" => "matibot@gmail.com" }
+s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MBRateApp.git", :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/b0tnik'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MBRateApp/Classes/**/*'
-  s.resource_bundles = {
-    'MBRateApp' => [MBRateApp/Resources/**/*.{xib, png, jpeg, jpg, storyboard}']
-  }
+s.source_files = 'MBRateApp/Classes/**/*'
+s.resource_bundles = {
+'MBRateApp' => [MBRateApp/Resources/**/*.{xib, png, jpeg, jpg, storyboard}']
+}
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# s.public_header_files = 'Pod/Classes/**/*.h'
+# s.frameworks = 'UIKit', 'MapKit'
+# s.dependency 'AFNetworking', '~> 2.3'
 end
