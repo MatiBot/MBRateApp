@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MBRateApp_Example', :exclusive => true do
+  pod 'MBRateApp', :path => '../'
+end
+
+target 'MBRateApp_Tests', :exclusive => true do
+  pod 'MBRateApp', :path => '../'
+
+  
+end

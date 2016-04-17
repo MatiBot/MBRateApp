@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACA2D81BEBBACC02C77B55F3388578B /* Pods-MBRateApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F284481F8E69448AE477F05080C977C5 /* Pods-MBRateApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35CCE6E1A87A2CF903D74A2A2922E3F3 /* MBRateApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761C882D3CFD38CA7599B1E6C1DF6508 /* MBRateApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446DBEAC1CC2EDF1002CC9C2 /* RateUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */; };
+		446DBEB21CC2F7D3002CC9C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446DBEB11CC2F7D3002CC9C2 /* Images.xcassets */; };
+		446DBEB41CC2F90B002CC9C2 /* MBRateUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446DBEB31CC2F90B002CC9C2 /* MBRateUsViewController.swift */; };
+		4E76365609A44AFDB0E5D7E57B80A86A /* MBRateApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D62551283B09577A352B314F2F95983 /* MBRateApp-dummy.m */; };
+		585F8A85554ED467A4ABB77FACD66D16 /* Pods-MBRateApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57513697864EFF1CB8CA08F50928D037 /* Pods-MBRateApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A9BE793F6F0B5621134D24F176C6F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */; };
+		B843BD7395963E0142889DD428514E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */; };
+		CBBEAC680B9385BD59B5065A2A2BA773 /* MBRateUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B264EA2A793CE3D9B3316D335D6C84C2 /* MBRateUs.swift */; };
+		D3265A3A7959FBDF859DFD0D58D3641B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */; };
+		D840C24C9F6F7C701072AA62C8F097E1 /* Pods-MBRateApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B70088CFB1963B668049800FC52956A /* Pods-MBRateApp_Example-dummy.m */; };
+		EC16245D0A6A4DCF4E009E923DA82997 /* MBRateApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 00B9F35E24A511D8A4599DE5BE23601C /* MBRateApp.bundle */; };
+		FAE526C734B99CE4B51447844E96B482 /* Pods-MBRateApp_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB4208A7B0E51D08808A71A95FC1BCE /* Pods-MBRateApp_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2AD1564C747FEAC6833A71C2D2E9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0082F284B37CD74BF7AB89D6CA68C334;
+			remoteInfo = MBRateApp;
+		};
+		7B6CD868B9B3FBA52CF2756CA1D5E6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0082F284B37CD74BF7AB89D6CA68C334;
+			remoteInfo = MBRateApp;
+		};
+		AB2DD1CB869774E6CEEA1D6B9D3BC926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A859392624B7611D34D13E5130B6EC05;
+			remoteInfo = "MBRateApp-MBRateApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B9F35E24A511D8A4599DE5BE23601C /* MBRateApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBRateApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		071CBBC45AF80F8462CDB666F57209D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1604DC47155685A1EB5043230A06A3B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B70088CFB1963B668049800FC52956A /* Pods-MBRateApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBRateApp_Example-dummy.m"; sourceTree = "<group>"; };
+		1D62551283B09577A352B314F2F95983 /* MBRateApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBRateApp-dummy.m"; sourceTree = "<group>"; };
+		2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BA0734F32513C6A3DE625A540FA7EDE /* Pods-MBRateApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBRateApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41321E496978268F6A7A19D4E2B4F711 /* Pods_MBRateApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRateApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A5C20CB14DFC47E0ACEB90300BA4A6 /* MBRateApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRateApp-prefix.pch"; sourceTree = "<group>"; };
+		446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RateUs.storyboard; sourceTree = "<group>"; };
+		446DBEB11CC2F7D3002CC9C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		446DBEB31CC2F90B002CC9C2 /* MBRateUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBRateUsViewController.swift; sourceTree = "<group>"; };
+		4496C4A0BA45FEE1ABCF82BD0F042381 /* Pods-MBRateApp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRateApp_Tests-resources.sh"; sourceTree = "<group>"; };
+		4B1F57948E2490D62D791B8DF8CD7FAD /* Pods-MBRateApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRateApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4DC3838F19D08E16C88140A051193ABC /* MBRateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBRateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3D127D5F4374D3F7F91E3EBD51742D /* Pods-MBRateApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBRateApp_Tests.modulemap"; sourceTree = "<group>"; };
+		532E8F099220B3A6C57434E9D3D33CB7 /* MBRateApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBRateApp.xcconfig; sourceTree = "<group>"; };
+		57513697864EFF1CB8CA08F50928D037 /* Pods-MBRateApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBRateApp_Example-umbrella.h"; sourceTree = "<group>"; };
+		5BB925EE052E097B7E355CCCB6D9EB09 /* Pods-MBRateApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBRateApp_Example.modulemap"; sourceTree = "<group>"; };
+		5D4FE1CF54F2BF29893FBB282F25C9F9 /* MBRateApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBRateApp.modulemap; sourceTree = "<group>"; };
+		5FB4208A7B0E51D08808A71A95FC1BCE /* Pods-MBRateApp_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBRateApp_Tests-dummy.m"; sourceTree = "<group>"; };
+		761C882D3CFD38CA7599B1E6C1DF6508 /* MBRateApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRateApp-umbrella.h"; sourceTree = "<group>"; };
+		7637FBD561B1D22B4B6D66391D5DB573 /* Pods-MBRateApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBRateApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EB037A91BF33B7A3CDD2B74AC348CA6 /* Pods-MBRateApp_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBRateApp_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F47F7614C964506C7C68534832ED2A7 /* Pods-MBRateApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRateApp_Example.release.xcconfig"; sourceTree = "<group>"; };
+		94C7E1F9CB269E01C98D3E4E0F634C92 /* Pods-MBRateApp_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRateApp_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99E3F10F9B669869A51D31BC555BBD0A /* Pods_MBRateApp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRateApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4566D6317C86951E4F49DFEDDFE851 /* Pods-MBRateApp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRateApp_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B264EA2A793CE3D9B3316D335D6C84C2 /* MBRateUs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MBRateUs.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEE2D184871A29D11FE1F0D27516D369 /* Pods-MBRateApp_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRateApp_Example-resources.sh"; sourceTree = "<group>"; };
+		D1807BF3E236A9F42B5680B8DB4215A5 /* Pods-MBRateApp_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MBRateApp_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D65CAAC72CD5D07C0412F4B717A37C18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF91C9BA3B2341B63984864880225642 /* Pods-MBRateApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRateApp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F284481F8E69448AE477F05080C977C5 /* Pods-MBRateApp_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBRateApp_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBRateApp-Private.xcconfig"; sourceTree = "<group>"; };
+		FC83C3BFEB43EE0D274A03C5D548A82C /* Pods-MBRateApp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRateApp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF0A63EBD92987283C711353F119CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EA7664F9120EF66A2619CF4FD5F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B843BD7395963E0142889DD428514E17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8FC43EC893FE252D4A9F6C49B4DCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3265A3A7959FBDF859DFD0D58D3641B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E052CCB88DD158D9D9D6143B9EBA01F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9BE793F6F0B5621134D24F176C6F27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F928741FE111892D3292988BE88CB2 /* MBRateApp */ = {
+			isa = PBXGroup;
+			children = (
+				5B53E77A8E862CDC5017651E272FCC7C /* MBRateApp */,
+				F9576D00145135547A8CC864DA0BD233 /* Support Files */,
+			);
+			name = MBRateApp;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		110ADA4110401C541FC372F919A3D8A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08F928741FE111892D3292988BE88CB2 /* MBRateApp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1C0085D06F2693E88A411D3484CB6BA1 /* Pods-MBRateApp_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D65CAAC72CD5D07C0412F4B717A37C18 /* Info.plist */,
+				5BB925EE052E097B7E355CCCB6D9EB09 /* Pods-MBRateApp_Example.modulemap */,
+				7637FBD561B1D22B4B6D66391D5DB573 /* Pods-MBRateApp_Example-acknowledgements.markdown */,
+				3BA0734F32513C6A3DE625A540FA7EDE /* Pods-MBRateApp_Example-acknowledgements.plist */,
+				1B70088CFB1963B668049800FC52956A /* Pods-MBRateApp_Example-dummy.m */,
+				EF91C9BA3B2341B63984864880225642 /* Pods-MBRateApp_Example-frameworks.sh */,
+				BEE2D184871A29D11FE1F0D27516D369 /* Pods-MBRateApp_Example-resources.sh */,
+				57513697864EFF1CB8CA08F50928D037 /* Pods-MBRateApp_Example-umbrella.h */,
+				4B1F57948E2490D62D791B8DF8CD7FAD /* Pods-MBRateApp_Example.debug.xcconfig */,
+				8F47F7614C964506C7C68534832ED2A7 /* Pods-MBRateApp_Example.release.xcconfig */,
+			);
+			name = "Pods-MBRateApp_Example";
+			path = "Target Support Files/Pods-MBRateApp_Example";
+			sourceTree = "<group>";
+		};
+		506C34947D62243858C19667CEEEC867 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0085D06F2693E88A411D3484CB6BA1 /* Pods-MBRateApp_Example */,
+				8877708128ADD205E36A7BE4493D19B8 /* Pods-MBRateApp_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B53E77A8E862CDC5017651E272FCC7C /* MBRateApp */ = {
+			isa = PBXGroup;
+			children = (
+				9649005FF429A99216BDF5D277AA5D52 /* Classes */,
+			);
+			path = MBRateApp;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				110ADA4110401C541FC372F919A3D8A4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				506C34947D62243858C19667CEEEC867 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8877708128ADD205E36A7BE4493D19B8 /* Pods-MBRateApp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				071CBBC45AF80F8462CDB666F57209D0 /* Info.plist */,
+				4F3D127D5F4374D3F7F91E3EBD51742D /* Pods-MBRateApp_Tests.modulemap */,
+				D1807BF3E236A9F42B5680B8DB4215A5 /* Pods-MBRateApp_Tests-acknowledgements.markdown */,
+				8EB037A91BF33B7A3CDD2B74AC348CA6 /* Pods-MBRateApp_Tests-acknowledgements.plist */,
+				5FB4208A7B0E51D08808A71A95FC1BCE /* Pods-MBRateApp_Tests-dummy.m */,
+				94C7E1F9CB269E01C98D3E4E0F634C92 /* Pods-MBRateApp_Tests-frameworks.sh */,
+				4496C4A0BA45FEE1ABCF82BD0F042381 /* Pods-MBRateApp_Tests-resources.sh */,
+				F284481F8E69448AE477F05080C977C5 /* Pods-MBRateApp_Tests-umbrella.h */,
+				FC83C3BFEB43EE0D274A03C5D548A82C /* Pods-MBRateApp_Tests.debug.xcconfig */,
+				9D4566D6317C86951E4F49DFEDDFE851 /* Pods-MBRateApp_Tests.release.xcconfig */,
+			);
+			name = "Pods-MBRateApp_Tests";
+			path = "Target Support Files/Pods-MBRateApp_Tests";
+			sourceTree = "<group>";
+		};
+		9649005FF429A99216BDF5D277AA5D52 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B264EA2A793CE3D9B3316D335D6C84C2 /* MBRateUs.swift */,
+				446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */,
+				446DBEB11CC2F7D3002CC9C2 /* Images.xcassets */,
+				446DBEB31CC2F90B002CC9C2 /* MBRateUsViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B9F35E24A511D8A4599DE5BE23601C /* MBRateApp.bundle */,
+				4DC3838F19D08E16C88140A051193ABC /* MBRateApp.framework */,
+				99E3F10F9B669869A51D31BC555BBD0A /* Pods_MBRateApp_Example.framework */,
+				41321E496978268F6A7A19D4E2B4F711 /* Pods_MBRateApp_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9576D00145135547A8CC864DA0BD233 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1604DC47155685A1EB5043230A06A3B4 /* Info.plist */,
+				5D4FE1CF54F2BF29893FBB282F25C9F9 /* MBRateApp.modulemap */,
+				532E8F099220B3A6C57434E9D3D33CB7 /* MBRateApp.xcconfig */,
+				F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */,
+				1D62551283B09577A352B314F2F95983 /* MBRateApp-dummy.m */,
+				43A5C20CB14DFC47E0ACEB90300BA4A6 /* MBRateApp-prefix.pch */,
+				761C882D3CFD38CA7599B1E6C1DF6508 /* MBRateApp-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MBRateApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		682BF2CE7A2E6BB8B4268A0EB8187140 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACA2D81BEBBACC02C77B55F3388578B /* Pods-MBRateApp_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81545DD52EB40538D13321DE9613AE42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585F8A85554ED467A4ABB77FACD66D16 /* Pods-MBRateApp_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58220809D0D27E7C1134A3F439282D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CCE6E1A87A2CF903D74A2A2922E3F3 /* MBRateApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0082F284B37CD74BF7AB89D6CA68C334 /* MBRateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAFF32A2B68280FAAE65026618B884C /* Build configuration list for PBXNativeTarget "MBRateApp" */;
+			buildPhases = (
+				B9BD56AC165BEC8DC44E5EE400FF1F10 /* Sources */,
+				DF8FC43EC893FE252D4A9F6C49B4DCDC /* Frameworks */,
+				9F056F33BB7B7EA1CB200AF595B1CB1F /* Resources */,
+				C58220809D0D27E7C1134A3F439282D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BAD529A622B567B85D9F8F856FB0A4 /* PBXTargetDependency */,
+			);
+			name = MBRateApp;
+			productName = MBRateApp;
+			productReference = 4DC3838F19D08E16C88140A051193ABC /* MBRateApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32FFEC9C5B2B4522AC515DCBDCDB439F /* Pods-MBRateApp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FB8B503D0A711A3642C7833972809B /* Build configuration list for PBXNativeTarget "Pods-MBRateApp_Tests" */;
+			buildPhases = (
+				7B4290509A9A9E6668BADBC3AFC13870 /* Sources */,
+				E052CCB88DD158D9D9D6143B9EBA01F5 /* Frameworks */,
+				682BF2CE7A2E6BB8B4268A0EB8187140 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99D90E3FB33A972D88F5D09A3F94C143 /* PBXTargetDependency */,
+			);
+			name = "Pods-MBRateApp_Tests";
+			productName = "Pods-MBRateApp_Tests";
+			productReference = 41321E496978268F6A7A19D4E2B4F711 /* Pods_MBRateApp_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42A83614FC33058949F958AC738A71F9 /* Pods-MBRateApp_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2711ADF7A9B4DE887139A16545ECE6CD /* Build configuration list for PBXNativeTarget "Pods-MBRateApp_Example" */;
+			buildPhases = (
+				BE2040E9890A43D430CFFACC55E1E648 /* Sources */,
+				78EA7664F9120EF66A2619CF4FD5F997 /* Frameworks */,
+				81545DD52EB40538D13321DE9613AE42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9850E738CE55CF627C5DC2B1873B2AD /* PBXTargetDependency */,
+			);
+			name = "Pods-MBRateApp_Example";
+			productName = "Pods-MBRateApp_Example";
+			productReference = 99E3F10F9B669869A51D31BC555BBD0A /* Pods_MBRateApp_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A859392624B7611D34D13E5130B6EC05 /* MBRateApp-MBRateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798ADB5744E391CD4BD780CFDF7E6558 /* Build configuration list for PBXNativeTarget "MBRateApp-MBRateApp" */;
+			buildPhases = (
+				232326F0376EDF8389AF3407E4FDE0DD /* Sources */,
+				5DF0A63EBD92987283C711353F119CD4 /* Frameworks */,
+				97301440C47EB005B2375BA5EC7DF861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBRateApp-MBRateApp";
+			productName = "MBRateApp-MBRateApp";
+			productReference = 00B9F35E24A511D8A4599DE5BE23601C /* MBRateApp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0082F284B37CD74BF7AB89D6CA68C334 /* MBRateApp */,
+				A859392624B7611D34D13E5130B6EC05 /* MBRateApp-MBRateApp */,
+				42A83614FC33058949F958AC738A71F9 /* Pods-MBRateApp_Example */,
+				32FFEC9C5B2B4522AC515DCBDCDB439F /* Pods-MBRateApp_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97301440C47EB005B2375BA5EC7DF861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F056F33BB7B7EA1CB200AF595B1CB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446DBEB21CC2F7D3002CC9C2 /* Images.xcassets in Resources */,
+				446DBEAC1CC2EDF1002CC9C2 /* RateUs.storyboard in Resources */,
+				EC16245D0A6A4DCF4E009E923DA82997 /* MBRateApp.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		232326F0376EDF8389AF3407E4FDE0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B4290509A9A9E6668BADBC3AFC13870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE526C734B99CE4B51447844E96B482 /* Pods-MBRateApp_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BD56AC165BEC8DC44E5EE400FF1F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E76365609A44AFDB0E5D7E57B80A86A /* MBRateApp-dummy.m in Sources */,
+				446DBEB41CC2F90B002CC9C2 /* MBRateUsViewController.swift in Sources */,
+				CBBEAC680B9385BD59B5065A2A2BA773 /* MBRateUs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2040E9890A43D430CFFACC55E1E648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D840C24C9F6F7C701072AA62C8F097E1 /* Pods-MBRateApp_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99D90E3FB33A972D88F5D09A3F94C143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBRateApp;
+			target = 0082F284B37CD74BF7AB89D6CA68C334 /* MBRateApp */;
+			targetProxy = 6E2AD1564C747FEAC6833A71C2D2E9B4 /* PBXContainerItemProxy */;
+		};
+		B2BAD529A622B567B85D9F8F856FB0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBRateApp-MBRateApp";
+			target = A859392624B7611D34D13E5130B6EC05 /* MBRateApp-MBRateApp */;
+			targetProxy = AB2DD1CB869774E6CEEA1D6B9D3BC926 /* PBXContainerItemProxy */;
+		};
+		E9850E738CE55CF627C5DC2B1873B2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBRateApp;
+			target = 0082F284B37CD74BF7AB89D6CA68C334 /* MBRateApp */;
+			targetProxy = 7B6CD868B9B3FBA52CF2756CA1D5E6F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E370CDE87E5CA6D070FAAD47215DDC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBRateApp/MBRateApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRateApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBRateApp/MBRateApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MBRateApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1404CFB042B74C627EF3AFA465C3BED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F47F7614C964506C7C68534832ED2A7 /* Pods-MBRateApp_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRateApp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRateApp_Example/Pods-MBRateApp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRateApp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1491A6D769B041B056DCC79F8F9444EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4566D6317C86951E4F49DFEDDFE851 /* Pods-MBRateApp_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRateApp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRateApp_Tests/Pods-MBRateApp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRateApp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		308FD4DD51AA9A75CE20471CDA291746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC83C3BFEB43EE0D274A03C5D548A82C /* Pods-MBRateApp_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRateApp_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRateApp_Tests/Pods-MBRateApp_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRateApp_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A1057140EB6F1CA764E5EA318364E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MBRateApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		73353AE7F78BF6C70820EA219A79C376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MBRateApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7C0333A8008CC61B99293CD0B0E5A00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F840513D1891AA3735E4CCF5107D4268 /* MBRateApp-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBRateApp/MBRateApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBRateApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBRateApp/MBRateApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBRateApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		872D6FDEF5A143E82C886CDA51875C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1F57948E2490D62D791B8DF8CD7FAD /* Pods-MBRateApp_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MBRateApp_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MBRateApp_Example/Pods-MBRateApp_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MBRateApp_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2711ADF7A9B4DE887139A16545ECE6CD /* Build configuration list for PBXNativeTarget "Pods-MBRateApp_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872D6FDEF5A143E82C886CDA51875C3D /* Debug */,
+				1404CFB042B74C627EF3AFA465C3BED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB8B503D0A711A3642C7833972809B /* Build configuration list for PBXNativeTarget "Pods-MBRateApp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308FD4DD51AA9A75CE20471CDA291746 /* Debug */,
+				1491A6D769B041B056DCC79F8F9444EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798ADB5744E391CD4BD780CFDF7E6558 /* Build configuration list for PBXNativeTarget "MBRateApp-MBRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73353AE7F78BF6C70820EA219A79C376 /* Debug */,
+				3A1057140EB6F1CA764E5EA318364E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAFF32A2B68280FAAE65026618B884C /* Build configuration list for PBXNativeTarget "MBRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E370CDE87E5CA6D070FAAD47215DDC4 /* Debug */,
+				7C0333A8008CC61B99293CD0B0E5A00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

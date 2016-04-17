@@ -1,0 +1,14 @@
+PODS:
+  - MBRateApp (0.1.0)
+
+DEPENDENCIES:
+  - MBRateApp (from `../`)
+
+EXTERNAL SOURCES:
+  MBRateApp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MBRateApp: a42b2224ab2f64dc1307dd9e367874aa6404ea0e
+
+COCOAPODS: 0.38.2

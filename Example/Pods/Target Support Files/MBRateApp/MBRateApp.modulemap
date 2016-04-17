@@ -1,0 +1,6 @@
+framework module MBRateApp {
+  umbrella header "MBRateApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
