@@ -32,9 +32,11 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'MBRateApp/Classes/**/*'
 
-s.subspec 'Resources' do |resources|
-resources.resource_bundle = {'MBRateApp' => ['Resources/**/*']}
-end
+s.resource_bundles = {
+'MBRateApp' => ['Pod/Assets/*.png']
+}
+
+s.resources = 'MBRateApp/Assets/**/*.storyboard'
 
 
 # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0ACA2D81BEBBACC02C77B55F3388578B /* Pods-MBRateApp_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F284481F8E69448AE477F05080C977C5 /* Pods-MBRateApp_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35CCE6E1A87A2CF903D74A2A2922E3F3 /* MBRateApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761C882D3CFD38CA7599B1E6C1DF6508 /* MBRateApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		446DBEAC1CC2EDF1002CC9C2 /* RateUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */; };
 		446DBEB41CC2F90B002CC9C2 /* MBRateUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446DBEB31CC2F90B002CC9C2 /* MBRateUsViewController.swift */; };
-		44A6DF5D1CC3631400B5BC97 /* rateus_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF5B1CC3631400B5BC97 /* rateus_on.png */; };
-		44A6DF5E1CC3631400B5BC97 /* rateus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF5C1CC3631400B5BC97 /* rateus_off.png */; };
-		44A6DF601CC364B800B5BC97 /* rateus_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF5F1CC364B800B5BC97 /* rateus_close.png */; };
+		44A6DF651CC36AF900B5BC97 /* rateus_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF611CC36AF900B5BC97 /* rateus_close.png */; };
+		44A6DF661CC36AF900B5BC97 /* rateus_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF621CC36AF900B5BC97 /* rateus_off.png */; };
+		44A6DF671CC36AF900B5BC97 /* rateus_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF631CC36AF900B5BC97 /* rateus_on.png */; };
+		44A6DF681CC36AF900B5BC97 /* RateUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6DF641CC36AF900B5BC97 /* RateUs.storyboard */; };
 		4E76365609A44AFDB0E5D7E57B80A86A /* MBRateApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D62551283B09577A352B314F2F95983 /* MBRateApp-dummy.m */; };
 		585F8A85554ED467A4ABB77FACD66D16 /* Pods-MBRateApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57513697864EFF1CB8CA08F50928D037 /* Pods-MBRateApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A9BE793F6F0B5621134D24F176C6F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBE7293DD4E68DD75D10EA8B409AE92 /* Foundation.framework */; };
@@ -59,12 +59,12 @@
 		3BA0734F32513C6A3DE625A540FA7EDE /* Pods-MBRateApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MBRateApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		41321E496978268F6A7A19D4E2B4F711 /* Pods_MBRateApp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MBRateApp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A5C20CB14DFC47E0ACEB90300BA4A6 /* MBRateApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBRateApp-prefix.pch"; sourceTree = "<group>"; };
-		446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RateUs.storyboard; path = Classes/RateUs.storyboard; sourceTree = "<group>"; };
 		446DBEB31CC2F90B002CC9C2 /* MBRateUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBRateUsViewController.swift; sourceTree = "<group>"; };
 		4496C4A0BA45FEE1ABCF82BD0F042381 /* Pods-MBRateApp_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MBRateApp_Tests-resources.sh"; sourceTree = "<group>"; };
-		44A6DF5B1CC3631400B5BC97 /* rateus_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateus_on.png; sourceTree = "<group>"; };
-		44A6DF5C1CC3631400B5BC97 /* rateus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateus_off.png; sourceTree = "<group>"; };
-		44A6DF5F1CC364B800B5BC97 /* rateus_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateus_close.png; sourceTree = "<group>"; };
+		44A6DF611CC36AF900B5BC97 /* rateus_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rateus_close.png; path = Assets/rateus_close.png; sourceTree = "<group>"; };
+		44A6DF621CC36AF900B5BC97 /* rateus_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rateus_off.png; path = Assets/rateus_off.png; sourceTree = "<group>"; };
+		44A6DF631CC36AF900B5BC97 /* rateus_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rateus_on.png; path = Assets/rateus_on.png; sourceTree = "<group>"; };
+		44A6DF641CC36AF900B5BC97 /* RateUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RateUs.storyboard; path = Assets/RateUs.storyboard; sourceTree = "<group>"; };
 		4B1F57948E2490D62D791B8DF8CD7FAD /* Pods-MBRateApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBRateApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4DC3838F19D08E16C88140A051193ABC /* MBRateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBRateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3D127D5F4374D3F7F91E3EBD51742D /* Pods-MBRateApp_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MBRateApp_Tests.modulemap"; sourceTree = "<group>"; };
@@ -162,15 +162,15 @@
 			path = "Target Support Files/Pods-MBRateApp_Example";
 			sourceTree = "<group>";
 		};
-		44A6DF541CC3620500B5BC97 /* Resources */ = {
+		44A6DF541CC3620500B5BC97 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				446DBEAB1CC2EDF1002CC9C2 /* RateUs.storyboard */,
-				44A6DF5F1CC364B800B5BC97 /* rateus_close.png */,
-				44A6DF5B1CC3631400B5BC97 /* rateus_on.png */,
-				44A6DF5C1CC3631400B5BC97 /* rateus_off.png */,
+				44A6DF611CC36AF900B5BC97 /* rateus_close.png */,
+				44A6DF621CC36AF900B5BC97 /* rateus_off.png */,
+				44A6DF631CC36AF900B5BC97 /* rateus_on.png */,
+				44A6DF641CC36AF900B5BC97 /* RateUs.storyboard */,
 			);
-			name = Resources;
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		506C34947D62243858C19667CEEEC867 /* Targets Support Files */ = {
@@ -193,7 +193,7 @@
 		5B53E77A8E862CDC5017651E272FCC7C /* MBRateApp */ = {
 			isa = PBXGroup;
 			children = (
-				44A6DF541CC3620500B5BC97 /* Resources */,
+				44A6DF541CC3620500B5BC97 /* Assets */,
 				9649005FF429A99216BDF5D277AA5D52 /* Classes */,
 			);
 			path = MBRateApp;
@@ -414,11 +414,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44A6DF601CC364B800B5BC97 /* rateus_close.png in Resources */,
-				44A6DF5E1CC3631400B5BC97 /* rateus_off.png in Resources */,
-				446DBEAC1CC2EDF1002CC9C2 /* RateUs.storyboard in Resources */,
+				44A6DF671CC36AF900B5BC97 /* rateus_on.png in Resources */,
+				44A6DF681CC36AF900B5BC97 /* RateUs.storyboard in Resources */,
+				44A6DF661CC36AF900B5BC97 /* rateus_off.png in Resources */,
+				44A6DF651CC36AF900B5BC97 /* rateus_close.png in Resources */,
 				EC16245D0A6A4DCF4E009E923DA82997 /* MBRateApp.bundle in Resources */,
-				44A6DF5D1CC3631400B5BC97 /* rateus_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
