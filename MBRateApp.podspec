@@ -18,7 +18,8 @@ s.summary          = "A customizable interstitial app rate screen with cool desi
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-try to get more stars with this pod
+A customizable interstitial app rate screen with cool design.
+You can change the colors of almost every element on the screen and get callbacks of what the user chose to do.
 DESC
 
 s.homepage         = "https://github.com/matibot/MBRateApp"
