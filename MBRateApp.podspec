@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MBRateApp"
-s.version          = "0.1.2"
+s.version          = "0.1.3"
 s.summary          = "A customizable interstitial app rate screen with cool design"
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +33,11 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'MBRateApp/Classes/**/*'
 
-s.resource_bundles = {
-'MBRateApp' => ['Pod/Assets/*.png']
-}
+# s.resource_bundles = {
+# 'MBRateApp' => ['Pod/Assets/*.png']
+# }
 
-s.resources = 'MBRateApp/Assets/**/*.storyboard'
+s.resources = 'MBRateApp/Assets/**/*.{storyboard,png}'
 
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
