@@ -67,6 +67,7 @@ class MBRateUsViewController : UIViewController {
         super.viewDidLoad()
         
         self.callToActionButton.layer.cornerRadius = 6.0
+        self.callToActionButton.titleLabel?.adjustsFontSizeToFitWidth = true
         self.titleLabel.text = self.rateUsInfo.title
         self.subtitleLabel.text = self.rateUsInfo.subtitle
         self.view.backgroundColor = self.rateUsInfo.backgroundColor
