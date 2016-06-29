@@ -152,7 +152,7 @@ class MBRateUsViewController : UIViewController {
                 where UIApplication.sharedApplication().canOpenURL(url) {
                 UIApplication.sharedApplication().openURL(url)
                 self.positiveBlock?()
-            }            
+            }
         })
     }
 }
