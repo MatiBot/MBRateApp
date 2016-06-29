@@ -15,7 +15,7 @@ public class MBRateUs{
 
     public var rateUsInfo = MBRateUsInfo()
     
-    public func showRateUs(base:UIViewController, positiveBlock:()->Void, negativeBlock:()->Void, dismissBlock:()->Void, iconAnimationBlock:((iconView: UIImageView)->Void)? = nil ){
+    public func showRateUs(base:UIViewController, positiveBlock:()->Void, negativeBlock:()->Void, dismissBlock:(()->Void)? = nil, iconAnimationBlock:((iconView: UIImageView)->Void)? = nil ){
         let podBundle = NSBundle(forClass: self.dynamicType)
         let storyboard = UIStoryboard(name: "RateUs", bundle: podBundle)
         let vc = storyboard.instantiateInitialViewController() as! MBRateUsViewController

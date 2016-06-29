@@ -91,10 +91,7 @@ class MBRateUsViewController : UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        if let iconAnimationBlock = self.iconAnimationBlock {
-            iconAnimationBlock(iconView: self.imageView)
-        }
+        self.iconAnimationBlock?(iconView: self.imageView)        
     }
     
 
