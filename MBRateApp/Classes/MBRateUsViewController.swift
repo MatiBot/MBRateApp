@@ -141,18 +141,18 @@ class MBRateUsViewController : UIViewController {
     
     @IBAction func callToActionTouched(sender: UIButton) {
         self.dismissViewControllerAnimated(true, completion: {
-            if self.shouldRate {
-                if let itunesId = self.rateUsInfo.itunesId,
-                    url = NSURL(string: "http://itunes.apple.com/app/id\(itunesId)")
-                    where UIApplication.sharedApplication().canOpenURL(url) {
-                    UIApplication.sharedApplication().openURL(url)
-                    self.positiveBlock?()
-                    
-                    return
-                }
-                
+            
+            guard self.shouldRate else {
                 self.negativeBlock?()
+                return
             }
+            
+            if let itunesId = self.rateUsInfo.itunesId,
+                url = NSURL(string: "http://itunes.apple.com/app/id\(itunesId)")
+                where UIApplication.sharedApplication().canOpenURL(url) {
+                UIApplication.sharedApplication().openURL(url)
+                self.positiveBlock?()
+            }            
         })
     }
 }
