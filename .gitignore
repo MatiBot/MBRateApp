@@ -22,6 +22,8 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+*.DS_Store
+*.xcworkspace
 
 ## Obj-C/Swift specific
 *.hmap

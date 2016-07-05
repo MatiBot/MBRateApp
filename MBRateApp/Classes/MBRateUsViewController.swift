@@ -16,6 +16,8 @@ public struct MBRateUsInfo {
     public var subtitle = "Please rate your experience"
     public var positive = "Awesome!"
     public var negative = "Darn. we should have been better."
+    public var rateInAppStoreButtonTitle = "Rate in the AppStore"
+    public var sendUsFeedbackButtonTitle = "Send us feedback"
     public var backgroundColor = UIColor.whiteColor()
     public var positiveButtonColor = UIColor.blueColor()
     public var negativeButtonColor = UIColor.blueColor()
@@ -25,21 +27,11 @@ public struct MBRateUsInfo {
     public var titleImage = nil as UIImage?
     public var dismissButtonColor = UIColor.blackColor()
     public var itunesId = nil as String?
+    public var successResult = 4
 }
 
 
 class MBRateUsViewController : UIViewController {
-    
-    required init?(coder aDecoder: NSCoder) {
-        shouldRate = false
-        let podBundle = NSBundle(forClass: self.dynamicType)
- 
-        starImageOn = UIImage(named: "rateus_on", inBundle: podBundle, compatibleWithTraitCollection: nil)!
-        starImageOff = UIImage(named: "rateus_off", inBundle: podBundle, compatibleWithTraitCollection: nil)!
-        
-        super.init(coder: aDecoder)
-    }
-    
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var resultLabel : UILabel!
@@ -51,7 +43,7 @@ class MBRateUsViewController : UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dismissButton: UIButton!
     
-    var rateUsInfo : MBRateUsInfo?
+    var rateUsInfo = MBRateUsInfo()
     var positiveBlock : (()->Void)?
     var negativeBlock : (()->Void)?
     var dismissBlock : (()->Void)?
@@ -60,23 +52,34 @@ class MBRateUsViewController : UIViewController {
     var starImageOn : UIImage
     var starImageOff : UIImage
     
+    
+    required init?(coder aDecoder: NSCoder) {
+        shouldRate = false
+        let podBundle = NSBundle(forClass: self.dynamicType)
+        
+        starImageOn = UIImage(named: "rateus_on", inBundle: podBundle, compatibleWithTraitCollection: nil)!
+        starImageOff = UIImage(named: "rateus_off", inBundle: podBundle, compatibleWithTraitCollection: nil)!
+        
+        super.init(coder: aDecoder)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.callToActionButton.layer.cornerRadius = 6.0
+        self.callToActionButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        self.titleLabel.text = self.rateUsInfo.title
+        self.subtitleLabel.text = self.rateUsInfo.subtitle
+        self.view.backgroundColor = self.rateUsInfo.backgroundColor
+        self.titleLabel.textColor = self.rateUsInfo.textColor
+        self.subtitleLabel.textColor = self.rateUsInfo.textColor
+        self.resultLabel.textColor = self.rateUsInfo.textColor
         
-        self.titleLabel.text = self.rateUsInfo?.title
-        self.subtitleLabel.text = self.rateUsInfo?.subtitle
-        self.view.backgroundColor = self.rateUsInfo?.backgroundColor
-        self.titleLabel.textColor = self.rateUsInfo?.textColor
-        self.subtitleLabel.textColor = self.rateUsInfo?.textColor
-        self.resultLabel.textColor = self.rateUsInfo?.textColor
-        
-        if let fullStar = self.rateUsInfo?.fullStarImage {
+        if let fullStar = self.rateUsInfo.fullStarImage {
             self.starImageOn = fullStar
         }
         
-        if let emptyStar = self.rateUsInfo?.fullStarImage {
+        if let emptyStar = self.rateUsInfo.fullStarImage {
             self.starImageOff = emptyStar
         }
         
@@ -84,12 +87,12 @@ class MBRateUsViewController : UIViewController {
             button.setImage(starImageOff, forState: .Normal)
         }
         
-        self.imageView.image = self.rateUsInfo?.titleImage
+        self.imageView.image = self.rateUsInfo.titleImage
         
-        self.dismissButton.tintColor = self.rateUsInfo?.dismissButtonColor
+        self.dismissButton.tintColor = self.rateUsInfo.dismissButtonColor
     }
     
-
+    
     @IBAction func dismiss(sender: UIButton) {
         self.dismissViewControllerAnimated(true, completion: { _ in self.dismissBlock?()})
     }
@@ -112,17 +115,19 @@ class MBRateUsViewController : UIViewController {
     
     @IBAction func starTouched(sender: UIButton) {
         self.starsMask.hidden = false
-        if sender.tag >= 4 {
-            self.resultLabel.text = self.rateUsInfo?.positive
-            self.callToActionButton.setTitle("Rate in the AppStore", forState: .Normal)
+        
+        if sender.tag >= self.rateUsInfo.successResult {
+            self.resultLabel.text = self.rateUsInfo.positive
+            self.callToActionButton
+                .setTitle(self.rateUsInfo.rateInAppStoreButtonTitle, forState: .Normal)
             self.shouldRate = true
-            self.callToActionButton.backgroundColor = self.rateUsInfo?.positiveButtonColor
+            self.callToActionButton.backgroundColor = self.rateUsInfo.positiveButtonColor
         }
         else {
-            self.resultLabel.text = self.rateUsInfo?.negative
-            self.callToActionButton.setTitle("Send us feedback", forState: .Normal)
+            self.resultLabel.text = self.rateUsInfo.negative
+            self.callToActionButton.setTitle(self.rateUsInfo.sendUsFeedbackButtonTitle, forState: .Normal)
             self.shouldRate = false
-            self.callToActionButton.backgroundColor = self.rateUsInfo?.negativeButtonColor
+            self.callToActionButton.backgroundColor = self.rateUsInfo.negativeButtonColor
         }
         self.resultLabel.alpha = 0.0
         self.callToActionButton.alpha = 0.0
@@ -136,14 +141,17 @@ class MBRateUsViewController : UIViewController {
     
     @IBAction func callToActionTouched(sender: UIButton) {
         self.dismissViewControllerAnimated(true, completion: {
-            if self.shouldRate {
-                if let itunesId = self.rateUsInfo?.itunesId {
-                    UIApplication.sharedApplication().openURL(NSURL(string: "http://itunes.apple.com/app/id\(itunesId)")!)
-                }
-
-                self.positiveBlock?()
-            }else {
+            
+            guard self.shouldRate else {
                 self.negativeBlock?()
+                return
+            }
+            
+            if let itunesId = self.rateUsInfo.itunesId,
+                url = NSURL(string: "http://itunes.apple.com/app/id\(itunesId)")
+                where UIApplication.sharedApplication().canOpenURL(url) {
+                UIApplication.sharedApplication().openURL(url)
+                self.positiveBlock?()
             }
         })
     }
