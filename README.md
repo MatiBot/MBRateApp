@@ -1,4 +1,7 @@
-# DEPRECATED - App Store policy does not allow to use these kinds of frameworks anymore and suggest the native app rater
+# DEPRECATED - 
+
+App Store policy does not allow to use these kinds of frameworks anymore and suggest the native app rater
+https://developer.apple.com/documentation/storekit/skstorereviewcontroller
 
 # MBRateApp
 
