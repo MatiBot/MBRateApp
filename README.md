@@ -1,3 +1,5 @@
+# DEPRECATED - App Store policy does not allow to use these kinds of frameworks anymore and suggest the native app rater
+
 # MBRateApp
 
 [![CI Status](http://img.shields.io/travis/Mati Bot/MBRateApp.svg?style=flat)](https://travis-ci.org/Mati Bot/MBRateApp)
