@@ -25,7 +25,7 @@ DESC
 s.homepage         = "https://github.com/matibot/MBRateApp"
 # s.screenshots     = "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot1.png", "https://raw.githubusercontent.com/MatiBot/MBRateApp/master/Screenshots/screenshot2.png"
 s.license          = 'MIT'
-s.author           = { "Mati Bot" => "matibot@gmail.com" }
+s.author           = { "Mati Bot" => "os@mati.bot" }
 s.source           = { :git => "https://github.com/matibot/MBRateApp.git", :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/b0tnik'
 
