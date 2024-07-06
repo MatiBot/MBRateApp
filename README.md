@@ -55,7 +55,7 @@ pod "MBRateApp"
 
 ## Author
 
-Mati Bot, hi@mati.bot, [@b0tnik](https://twitter.com/b0tnik)
+Mati Bot, code@mati.bot
 
 ## License
 
